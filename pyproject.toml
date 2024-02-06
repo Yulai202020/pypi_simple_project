@@ -1,7 +1,7 @@
 [project]
-name = "yulain_test_project"
+name = "your_project_name"
 version = "0.0.1"
-description = "Just a demo project"
+description = "Description"
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = ["sample", "project"]
@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.scripts]
-test = "yulain_test_project.__main__:main"
+test = "your_project_name.__main__:main"
 
 [build-system]
 requires = ["setuptools"]
